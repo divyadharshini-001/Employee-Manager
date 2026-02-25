@@ -1,0 +1,33 @@
+body{
+    background:#f7f6bc;
+    font-family:serif;
+    text-align:center;
+}
+
+h1{
+    color:#d46a6a;
+}
+
+.box{
+    background:#f0da9d;
+    width:80%;
+    margin:auto;
+    padding:30px;
+}
+
+form{
+    margin-bottom:20px;
+}
+
+input,select{
+    padding:8px;
+    margin:10px;
+}
+
+button{
+    padding:8px 15px;
+    margin:10px;
+    border:2px solid black;
+    background:#ddd;
+    cursor:pointer;
+}

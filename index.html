@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Employee Manager</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>EMPLOYEE MANAGER</h1>
+        <div class="box">
+            <form id="empForm">
+                <label>Name :</label>
+                <input type="text" id="name" required>
+                <label>Salary :</label>
+                <input type="number" id="salary" required>
+                <label>Department :</label>
+                <select id="department" required>
+                    <option value="">Select your department</option>
+                    <option>IT</option>
+                    <option>HR</option>
+                    <option>Sales</option>
+                </select>
+                <button type="submit">Add Employee</button>
+            </form>
+            <div class="btns">
+                <button onclick="deleteEmployee()">Delete Employee</button>
+                <button onclick="showEmployees()" class="show">Show Employee</button>
+                <button onclick="showAverage()">Show Average Salary</button>
+                <button onclick="loadAPI()">Load API</button>
+            </div>
+            <div id="output"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
